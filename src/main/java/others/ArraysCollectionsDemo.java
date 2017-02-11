@@ -10,6 +10,7 @@ public class ArraysCollectionsDemo {
 		Integer [] a = {1,2,1,3,1,2,1};
 		List<Integer> list = Arrays.asList(a);// converts array a to list .
 		System.out.println(list);
+		//list.add(10); //throws comiplation error
 		Collections.sort(list);// sorts the list.
 		System.out.println("aftersorting = " + list);
 	}
