@@ -2,8 +2,8 @@ package logicalprograms;
 
 public class PrimeNumbers {
 	public boolean isPrime(int input){
-		int m=input/2;
-		for(int i=2;i<=m;i++){
+	//	for(int i=2;i<=(input/2);i++){
+		for(int i=2;i<=Math.sqrt(input);i++){
 			if (input%i==0){
 				return false;
 			}
@@ -31,7 +31,7 @@ public class PrimeNumbers {
 		
 		
 		PrimeNumbers primeNumbers = new PrimeNumbers();
-	boolean output 	 = primeNumbers.isPrime(1);
+	boolean output 	 = primeNumbers.isPrime(31);
 	
 	if(output==true){
 		System.out.println("prime number");
