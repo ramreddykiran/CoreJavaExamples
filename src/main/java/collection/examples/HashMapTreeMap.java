@@ -10,7 +10,7 @@ public class HashMapTreeMap {
 	Map<String,String> hashMap	=  hashMapTreeMap.createHashMap();
 	Map<String,String> treeMap	=  hashMapTreeMap.createTreeMap();
 	System.out.println("hashMap = " + hashMap);
-	System.out.println("treeMap = " + hashMap);
+	System.out.println("treeMap = " + treeMap);
 	//treeMap.put(null,"value4");// it throws NullPointerException.
 	}
 

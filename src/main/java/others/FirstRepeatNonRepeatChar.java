@@ -14,10 +14,9 @@ public class FirstRepeatNonRepeatChar {
 	}
 
 	private static void firstRepeatedNonRepeatedCharUsingStreams(String input) {
-		Map<Character, Long> collect = input
-				.chars()
-				.mapToObj(i -> (char) i)
-				.collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new, Collectors.counting()));
+		Map<Character, Long> collect = input.chars()
+											.mapToObj(i -> (char) i)
+											.collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new, Collectors.counting()));
 		collect.forEach((x, y) -> System.out.println("Key: " + x + " Val: " + y));
 
 		Optional<Character> firstNonRepeat = collect.entrySet().stream()

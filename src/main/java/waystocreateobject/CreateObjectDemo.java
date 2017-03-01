@@ -20,8 +20,7 @@ public class CreateObjectDemo {
 			e.printStackTrace();
 		}
 		try {
-			Employee emp3 = (Employee) Class.forName("waystocreateobject.Employee")
-											.newInstance(); //type3
+			Employee emp3 = (Employee) Class.forName("waystocreateobject.Employee").newInstance(); //type3
 			System.out.println("emp3: "+emp3);
 		} catch (InstantiationException | IllegalAccessException | ClassNotFoundException e) {
 			e.printStackTrace();
@@ -54,8 +53,7 @@ public class CreateObjectDemo {
 		}
 		
 		try {
-			Employee emp7 = (Employee) Employee.class.getClassLoader()
-					.loadClass("waystocreateobject.Employee").newInstance(); //type 7
+			Employee emp7 = (Employee) Employee.class.getClassLoader().loadClass("waystocreateobject.Employee").newInstance(); //type 7
 			System.out.println("emp7 : "+emp7);
 		} catch (InstantiationException | IllegalAccessException
 				| ClassNotFoundException e) {
