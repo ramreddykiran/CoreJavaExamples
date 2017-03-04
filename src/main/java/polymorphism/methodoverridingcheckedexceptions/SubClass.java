@@ -10,8 +10,10 @@ public class SubClass extends SuperClass{
 												//or its super type or any runtime exception
 		//public void commonMethod() throws RuntimeException{//super class method should throw same exception
 											//or its super type or any runtime exception
-		public void commonMethod() throws ArithmeticException{//super class method should throw same exception
+	//	public void commonMethod() throws ArithmeticException{//super class method should throw same exception
 				//or its super type or any runtime exception. 
+		public void commonMethod() throws FileNotFoundException{//super class method should throw same exception
+			//or its super type or any runtime exception. 
 	}
 
 }
