@@ -1,4 +1,4 @@
-package others;
+package logicalprograms;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
