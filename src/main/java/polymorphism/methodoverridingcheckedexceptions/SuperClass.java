@@ -6,8 +6,8 @@ import java.io.IOException;
 public class SuperClass {
 
 	//public void commonMethod() throws Exception{ //possible
-	//public void commonMethod() throws FileNotFoundException{// not compatible with its subclass method
-	public void commonMethod() throws IOException{// not compatible with its subclass method
+	//public void commonMethod() throws FileNotFoundException{// SUbclass should throw same or its sub class
+	public void commonMethod() throws IOException{
 	}
 
 }
