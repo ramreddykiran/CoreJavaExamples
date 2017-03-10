@@ -10,7 +10,6 @@ public class SubClass extends SuperClass{
 		public A commonMethod(){//possible.this method can have subclass as return type. A is subclass of I
 	//public B commonMethod(){ //Not possible. B is the dependent class of A.No parent child relation b/w I,B and A,B also
  //public C commonMethod(){//possible.this method can have the sub class as return type
-	//public I commonMethod(){ //not possible . the return type is incompatible
 		return null;
 	}
 
