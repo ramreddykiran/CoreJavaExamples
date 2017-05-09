@@ -1,4 +1,4 @@
-package com.typecastingflow.examples;
+package typecastingflow.examples;
 
 public class Parent1 {
 	

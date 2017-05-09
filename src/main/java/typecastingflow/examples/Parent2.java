@@ -1,4 +1,4 @@
-package com.typecastingflow.examples;
+package typecastingflow.examples;
 
 public class Parent2 extends Parent1{
 	public void parent2M2(){

@@ -3,7 +3,7 @@ package polymorphism.overridingclassreturntype;
 
 public class SuperClass {
 
-	public I commonMethod() {
+	public A commonMethod() {
 		return null;
 	}
 
