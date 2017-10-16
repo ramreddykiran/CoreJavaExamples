@@ -10,7 +10,7 @@ public class ArrayListIterationExample {
 	public List<String> prepareList(int size) {
 		List<String> list = new ArrayList<String>();
 		for (int i = 0; i < size; i++) {
-			list.add("element" + i);
+			list.add("element: " + i);
 		}
 		return list;
 	}
