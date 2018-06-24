@@ -1,6 +1,8 @@
 package collection.examples;
 
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -9,8 +11,14 @@ public class HashMapTreeMap {
 		HashMapTreeMap hashMapTreeMap = new HashMapTreeMap();
 	Map<String,String> hashMap	=  hashMapTreeMap.createHashMap();
 	Map<String,String> treeMap	=  hashMapTreeMap.createTreeMap();
-	System.out.println("hashMap = " + hashMap);
-	System.out.println("treeMap = " + treeMap);
+	//System.out.println("hashMap = " + hashMap);
+	//System.out.println("treeMap = " + treeMap);
+	Map<Integer,List<Integer>> map = new HashMap<Integer,List<Integer>>();
+	map.put(1, Arrays.asList(1,3,4,5));
+	map.put(6, Arrays.asList(1,3,4,5));
+	map.put(3, Arrays.asList(1,3,4,5));
+	map.put(2, Arrays.asList(1,3,4,5));
+	System.out.println(map);
 	//treeMap.put(null,"value4");// it throws NullPointerException.
 	}
 
@@ -41,5 +49,7 @@ public class HashMapTreeMap {
 		map.put("key3","value3");
 		return map;
 	}
+	
+	
 
 }

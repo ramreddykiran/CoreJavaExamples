@@ -26,6 +26,7 @@ public class HashMapLinkedHashMap {
 		map.put("key7","value7");
 		map.put("key2",null);
 		map.put("key3","value3");
+		
 		return map;
 		
 	}

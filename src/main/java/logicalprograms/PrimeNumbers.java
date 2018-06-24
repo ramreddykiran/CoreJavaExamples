@@ -31,7 +31,7 @@ public class PrimeNumbers {
 		
 		
 		PrimeNumbers primeNumbers = new PrimeNumbers();
-	boolean output 	 = primeNumbers.isPrime(31);
+	boolean output 	 = primeNumbers.isPrime(7);
 	
 	if(output==true){
 		System.out.println("prime number");
